@@ -10,7 +10,7 @@ export const personalInfo = {
   github: "https://github.com/Malunga-hub",
   linkedin: "https://www.linkedin.com/in/buhle-malunga-18b37523b",
   resumeUrl: "/Buhle Malunga CV.pdf",
-  avatarImage: "/WhatsApp Image 2026-06-30 at 15.48.03.jpeg",
+  avatarImage: "/Buhle image.jpeg",
   avatarInitials: "BM", // Fallback if image is unavailable
 };
 

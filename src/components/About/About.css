@@ -46,7 +46,7 @@
 }
 
 .about__avatar-initials {
-  font-size: 72px;
+  font-size: 76px;
   font-weight: 700;
   color: var(--accent-light);
   letter-spacing: -0.02em;
@@ -54,8 +54,8 @@
 }
 
 .about__avatar-img {
-  width: 120%;
-  height: 140%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 16px;
   display: block;
