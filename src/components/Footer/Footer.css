@@ -1,0 +1,32 @@
+.footer {
+  padding: 32px 0;
+  border-top: 1px solid var(--border);
+  background: var(--bg-primary);
+}
+
+.footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.footer__copy {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.footer__name {
+  color: var(--accent-light);
+  transition: var(--transition);
+}
+
+.footer__name:hover {
+  color: var(--accent);
+}
+
+.footer__year {
+  font-size: 13px;
+  color: var(--text-muted);
+}
