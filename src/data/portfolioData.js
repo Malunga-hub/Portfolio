@@ -132,15 +132,16 @@ export const projects = [
     featured: true,
   },
   {
-    title: "Vuka E-Hailing",
+    title: "Vuka E-Hailing App",
     description:
       "This project demonstrates expertise in mobile application development, RESTful API design, real-time communication, authentication and authorization, geolocation services, database management, and full-stack software engineering using modern JavaScript technologies.",
+    sourceInfo: "🔒 Source Code: Private Repository\nAvailable upon request.",
     tech: ["React Native", "Node.js", "PostgreSQL", "REST API", "JavaScript", "HTML", "CSS", "Socket.IO", "JWT", "Express.js"],
-    github: "https://github.com/Malunga-hub/Vuka-Smart-E-Hailing",
+    github: "https://github.com/Malunga-hub",
     live: null,
     featured: true,
   },
-  
+
 ];
 
 // ─── EDUCATION ────────────────────────────────────────────────

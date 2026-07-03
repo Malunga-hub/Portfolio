@@ -31,11 +31,9 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    135deg,
-    rgba(99, 102, 241, 0.04) 0%,
-    transparent 60%
-  );
+  background: linear-gradient(135deg,
+      rgba(99, 102, 241, 0.04) 0%,
+      transparent 60%);
   opacity: 0;
   transition: var(--transition);
   pointer-events: none;
@@ -89,6 +87,17 @@
   margin-bottom: 20px;
 }
 
+.project-card__source {
+  font-size: 13px;
+  color: var(--text-primary);
+  background: rgba(99, 102, 241, 0.08);
+  border: 1px solid rgba(99, 102, 241, 0.18);
+  border-radius: 12px;
+  padding: 14px;
+  margin-bottom: 20px;
+  white-space: pre-line;
+}
+
 .project-card__tech {
   display: flex;
   flex-wrap: wrap;
@@ -102,7 +111,7 @@
   letter-spacing: 0.04em;
 }
 
-.project-card__tech-tag + .project-card__tech-tag::before {
+.project-card__tech-tag+.project-card__tech-tag::before {
   content: " · ";
   margin-right: 0;
 }

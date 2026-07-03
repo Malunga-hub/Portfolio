@@ -73,6 +73,12 @@ export default function Projects() {
               <h3 className="project-card__title">{project.title}</h3>
               <p className="project-card__desc">{project.description}</p>
 
+              {project.sourceInfo && (
+                <div className="project-card__source">
+                  <p>{project.sourceInfo}</p>
+                </div>
+              )}
+
               <div className="project-card__tech">
                 {project.tech.map((t) => (
                   <span key={t} className="project-card__tech-tag">
